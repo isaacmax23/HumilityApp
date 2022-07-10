@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF07AD4A2866992F00B1F2A4 /* HumilityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07AD492866992F00B1F2A4 /* HumilityAppApp.swift */; };
+		BF07AD4C2866992F00B1F2A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07AD4B2866992F00B1F2A4 /* ContentView.swift */; };
+		BF07AD4E2866993200B1F2A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF07AD4D2866993200B1F2A4 /* Assets.xcassets */; };
+		BF07AD512866993200B1F2A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF07AD502866993200B1F2A4 /* Preview Assets.xcassets */; };
+		BF07AD5B2866993200B1F2A4 /* HumilityAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07AD5A2866993200B1F2A4 /* HumilityAppTests.swift */; };
+		BF07AD652866993200B1F2A4 /* HumilityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07AD642866993200B1F2A4 /* HumilityAppUITests.swift */; };
+		BF07AD672866993200B1F2A4 /* HumilityAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07AD662866993200B1F2A4 /* HumilityAppUITestsLaunchTests.swift */; };
+		BF17CE0E28679B2900687415 /* ReusableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17CE0D28679B2900687415 /* ReusableText.swift */; };
+		BF17CE1128679F1D00687415 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17CE1028679F1D00687415 /* AppViewModel.swift */; };
+		BF22240B286912EA00CA45CE /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF22240A286912EA00CA45CE /* EndView.swift */; };
+		BF56546A2868148C00ECD874 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5654692868148C00ECD874 /* QuizModel.swift */; };
+		F51D2B3D2870DE2600AECDD5 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D2B3C2870DE2600AECDD5 /* CircleButton.swift */; };
+		F525750C2872AC5F00F10F64 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F525750B2872AC5F00F10F64 /* OnBoardingView.swift */; };
+		F525750E2872AF8F00F10F64 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F525750D2872AF8F00F10F64 /* FirstView.swift */; };
+		F52575102872B03500F10F64 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F525750F2872B03500F10F64 /* SecondView.swift */; };
+		F5606EFF28753FD300ACDD13 /* EndViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5606EFE28753FD200ACDD13 /* EndViewModel.swift */; };
+		F5606F07287542E400ACDD13 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F5606F06287542E400ACDD13 /* FirebaseAnalytics */; };
+		F5606F09287542E400ACDD13 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F5606F08287542E400ACDD13 /* FirebaseDatabase */; };
+		F5606F0B287542E400ACDD13 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F5606F0A287542E400ACDD13 /* FirebaseFirestore */; };
+		F5A24A892875232400CCF46E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5A24A882875232400CCF46E /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF07AD572866993200B1F2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF07AD3E2866992F00B1F2A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF07AD452866992F00B1F2A4;
+			remoteInfo = HumilityApp;
+		};
+		BF07AD612866993200B1F2A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF07AD3E2866992F00B1F2A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF07AD452866992F00B1F2A4;
+			remoteInfo = HumilityApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF07AD462866992F00B1F2A4 /* HumilityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumilityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF07AD492866992F00B1F2A4 /* HumilityAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumilityAppApp.swift; sourceTree = "<group>"; };
+		BF07AD4B2866992F00B1F2A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF07AD4D2866993200B1F2A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF07AD502866993200B1F2A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF07AD562866993200B1F2A4 /* HumilityAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumilityAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF07AD5A2866993200B1F2A4 /* HumilityAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumilityAppTests.swift; sourceTree = "<group>"; };
+		BF07AD602866993200B1F2A4 /* HumilityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumilityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF07AD642866993200B1F2A4 /* HumilityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumilityAppUITests.swift; sourceTree = "<group>"; };
+		BF07AD662866993200B1F2A4 /* HumilityAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumilityAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF17CE0D28679B2900687415 /* ReusableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableText.swift; sourceTree = "<group>"; };
+		BF17CE1028679F1D00687415 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		BF22240A286912EA00CA45CE /* EndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
+		BF5654692868148C00ECD874 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		F51D2B3C2870DE2600AECDD5 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		F525750B2872AC5F00F10F64 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		F525750D2872AF8F00F10F64 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		F525750F2872B03500F10F64 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		F5606EFE28753FD200ACDD13 /* EndViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewModel.swift; sourceTree = "<group>"; };
+		F5A24A882875232400CCF46E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF07AD432866992F00B1F2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5606F09287542E400ACDD13 /* FirebaseDatabase in Frameworks */,
+				F5606F07287542E400ACDD13 /* FirebaseAnalytics in Frameworks */,
+				F5606F0B287542E400ACDD13 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF07AD532866993200B1F2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF07AD5D2866993200B1F2A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF07AD3D2866992F00B1F2A4 = {
+			isa = PBXGroup;
+			children = (
+				BF5654682868146A00ECD874 /* Models */,
+				BF17CE0F28679CA600687415 /* ViewModel */,
+				BF17CE0C28679B0500687415 /* UIComponents */,
+				BF07AD482866992F00B1F2A4 /* HumilityApp */,
+				BF07AD592866993200B1F2A4 /* HumilityAppTests */,
+				BF07AD632866993200B1F2A4 /* HumilityAppUITests */,
+				BF07AD472866992F00B1F2A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF07AD472866992F00B1F2A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF07AD462866992F00B1F2A4 /* HumilityApp.app */,
+				BF07AD562866993200B1F2A4 /* HumilityAppTests.xctest */,
+				BF07AD602866993200B1F2A4 /* HumilityAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF07AD482866992F00B1F2A4 /* HumilityApp */ = {
+			isa = PBXGroup;
+			children = (
+				BF07AD492866992F00B1F2A4 /* HumilityAppApp.swift */,
+				BF07AD4B2866992F00B1F2A4 /* ContentView.swift */,
+				BF07AD4D2866993200B1F2A4 /* Assets.xcassets */,
+				BF07AD4F2866993200B1F2A4 /* Preview Content */,
+				BF22240A286912EA00CA45CE /* EndView.swift */,
+				F525750B2872AC5F00F10F64 /* OnBoardingView.swift */,
+				F525750D2872AF8F00F10F64 /* FirstView.swift */,
+				F525750F2872B03500F10F64 /* SecondView.swift */,
+			);
+			path = HumilityApp;
+			sourceTree = "<group>";
+		};
+		BF07AD4F2866993200B1F2A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF07AD502866993200B1F2A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF07AD592866993200B1F2A4 /* HumilityAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF07AD5A2866993200B1F2A4 /* HumilityAppTests.swift */,
+			);
+			path = HumilityAppTests;
+			sourceTree = "<group>";
+		};
+		BF07AD632866993200B1F2A4 /* HumilityAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF07AD642866993200B1F2A4 /* HumilityAppUITests.swift */,
+				BF07AD662866993200B1F2A4 /* HumilityAppUITestsLaunchTests.swift */,
+				F5A24A882875232400CCF46E /* GoogleService-Info.plist */,
+			);
+			path = HumilityAppUITests;
+			sourceTree = "<group>";
+		};
+		BF17CE0C28679B0500687415 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				BF17CE0D28679B2900687415 /* ReusableText.swift */,
+				F51D2B3C2870DE2600AECDD5 /* CircleButton.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		BF17CE0F28679CA600687415 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF17CE1028679F1D00687415 /* AppViewModel.swift */,
+				F5606EFE28753FD200ACDD13 /* EndViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BF5654682868146A00ECD874 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF5654692868148C00ECD874 /* QuizModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF07AD452866992F00B1F2A4 /* HumilityApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF07AD6A2866993200B1F2A4 /* Build configuration list for PBXNativeTarget "HumilityApp" */;
+			buildPhases = (
+				BF07AD422866992F00B1F2A4 /* Sources */,
+				BF07AD432866992F00B1F2A4 /* Frameworks */,
+				BF07AD442866992F00B1F2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HumilityApp;
+			packageProductDependencies = (
+				F5606F06287542E400ACDD13 /* FirebaseAnalytics */,
+				F5606F08287542E400ACDD13 /* FirebaseDatabase */,
+				F5606F0A287542E400ACDD13 /* FirebaseFirestore */,
+			);
+			productName = HumilityApp;
+			productReference = BF07AD462866992F00B1F2A4 /* HumilityApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF07AD552866993200B1F2A4 /* HumilityAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF07AD6D2866993200B1F2A4 /* Build configuration list for PBXNativeTarget "HumilityAppTests" */;
+			buildPhases = (
+				BF07AD522866993200B1F2A4 /* Sources */,
+				BF07AD532866993200B1F2A4 /* Frameworks */,
+				BF07AD542866993200B1F2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF07AD582866993200B1F2A4 /* PBXTargetDependency */,
+			);
+			name = HumilityAppTests;
+			productName = HumilityAppTests;
+			productReference = BF07AD562866993200B1F2A4 /* HumilityAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF07AD5F2866993200B1F2A4 /* HumilityAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF07AD702866993200B1F2A4 /* Build configuration list for PBXNativeTarget "HumilityAppUITests" */;
+			buildPhases = (
+				BF07AD5C2866993200B1F2A4 /* Sources */,
+				BF07AD5D2866993200B1F2A4 /* Frameworks */,
+				BF07AD5E2866993200B1F2A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF07AD622866993200B1F2A4 /* PBXTargetDependency */,
+			);
+			name = HumilityAppUITests;
+			productName = HumilityAppUITests;
+			productReference = BF07AD602866993200B1F2A4 /* HumilityAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF07AD3E2866992F00B1F2A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BF07AD452866992F00B1F2A4 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					BF07AD552866993200B1F2A4 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = BF07AD452866992F00B1F2A4;
+					};
+					BF07AD5F2866993200B1F2A4 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = BF07AD452866992F00B1F2A4;
+					};
+				};
+			};
+			buildConfigurationList = BF07AD412866992F00B1F2A4 /* Build configuration list for PBXProject "HumilityApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF07AD3D2866992F00B1F2A4;
+			packageReferences = (
+				F5606F05287542E400ACDD13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = BF07AD472866992F00B1F2A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF07AD452866992F00B1F2A4 /* HumilityApp */,
+				BF07AD552866993200B1F2A4 /* HumilityAppTests */,
+				BF07AD5F2866993200B1F2A4 /* HumilityAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF07AD442866992F00B1F2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF07AD512866993200B1F2A4 /* Preview Assets.xcassets in Resources */,
+				BF07AD4E2866993200B1F2A4 /* Assets.xcassets in Resources */,
+				F5A24A892875232400CCF46E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF07AD542866993200B1F2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF07AD5E2866993200B1F2A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF07AD422866992F00B1F2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51D2B3D2870DE2600AECDD5 /* CircleButton.swift in Sources */,
+				BF22240B286912EA00CA45CE /* EndView.swift in Sources */,
+				BF17CE0E28679B2900687415 /* ReusableText.swift in Sources */,
+				BF07AD4C2866992F00B1F2A4 /* ContentView.swift in Sources */,
+				BF17CE1128679F1D00687415 /* AppViewModel.swift in Sources */,
+				F525750C2872AC5F00F10F64 /* OnBoardingView.swift in Sources */,
+				F52575102872B03500F10F64 /* SecondView.swift in Sources */,
+				BF07AD4A2866992F00B1F2A4 /* HumilityAppApp.swift in Sources */,
+				F525750E2872AF8F00F10F64 /* FirstView.swift in Sources */,
+				BF56546A2868148C00ECD874 /* QuizModel.swift in Sources */,
+				F5606EFF28753FD300ACDD13 /* EndViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF07AD522866993200B1F2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF07AD5B2866993200B1F2A4 /* HumilityAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF07AD5C2866993200B1F2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF07AD652866993200B1F2A4 /* HumilityAppUITests.swift in Sources */,
+				BF07AD672866993200B1F2A4 /* HumilityAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF07AD582866993200B1F2A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF07AD452866992F00B1F2A4 /* HumilityApp */;
+			targetProxy = BF07AD572866993200B1F2A4 /* PBXContainerItemProxy */;
+		};
+		BF07AD622866993200B1F2A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF07AD452866992F00B1F2A4 /* HumilityApp */;
+			targetProxy = BF07AD612866993200B1F2A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF07AD682866993200B1F2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF07AD692866993200B1F2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF07AD6B2866993200B1F2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HumilityApp/Preview Content\"";
+				DEVELOPMENT_TEAM = LZ98HGYP26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Isaac.HumilityApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF07AD6C2866993200B1F2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HumilityApp/Preview Content\"";
+				DEVELOPMENT_TEAM = LZ98HGYP26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Isaac.HumilityApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF07AD6E2866993200B1F2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86Q24MZ7CU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Isaac.HumilityAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumilityApp.app/HumilityApp";
+			};
+			name = Debug;
+		};
+		BF07AD6F2866993200B1F2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86Q24MZ7CU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Isaac.HumilityAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumilityApp.app/HumilityApp";
+			};
+			name = Release;
+		};
+		BF07AD712866993200B1F2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86Q24MZ7CU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Isaac.HumilityAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumilityApp;
+			};
+			name = Debug;
+		};
+		BF07AD722866993200B1F2A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 86Q24MZ7CU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Isaac.HumilityAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumilityApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF07AD412866992F00B1F2A4 /* Build configuration list for PBXProject "HumilityApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF07AD682866993200B1F2A4 /* Debug */,
+				BF07AD692866993200B1F2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF07AD6A2866993200B1F2A4 /* Build configuration list for PBXNativeTarget "HumilityApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF07AD6B2866993200B1F2A4 /* Debug */,
+				BF07AD6C2866993200B1F2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF07AD6D2866993200B1F2A4 /* Build configuration list for PBXNativeTarget "HumilityAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF07AD6E2866993200B1F2A4 /* Debug */,
+				BF07AD6F2866993200B1F2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF07AD702866993200B1F2A4 /* Build configuration list for PBXNativeTarget "HumilityAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF07AD712866993200B1F2A4 /* Debug */,
+				BF07AD722866993200B1F2A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5606F05287542E400ACDD13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5606F06287542E400ACDD13 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5606F05287542E400ACDD13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		F5606F08287542E400ACDD13 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5606F05287542E400ACDD13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		F5606F0A287542E400ACDD13 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5606F05287542E400ACDD13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BF07AD3E2866992F00B1F2A4 /* Project object */;
+}
