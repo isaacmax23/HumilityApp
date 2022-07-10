@@ -19,10 +19,11 @@ struct CircleButton: View {
                 self.isSelected = true
                 self.selectedOption=self.score
                 appModel.model.quizModel.selectedScore=Int(self.score)
-                print("touched \(self.score)")
+                print(" \(self.score)")
             }
             Text(score).foregroundColor(.white)
         }
     }
+
 }
 
