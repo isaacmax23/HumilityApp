@@ -25,8 +25,8 @@ struct HumilityAppApp: App {
     }
     var body: some Scene {
         WindowGroup {
+            MapView()
         //ContentView(appModel: AppViewModel())
-            OnBoardingView()
         }
     }
 }

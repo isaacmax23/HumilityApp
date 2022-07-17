@@ -16,7 +16,6 @@
 		BF07AD672866993200B1F2A4 /* HumilityAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07AD662866993200B1F2A4 /* HumilityAppUITestsLaunchTests.swift */; };
 		BF17CE0E28679B2900687415 /* ReusableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17CE0D28679B2900687415 /* ReusableText.swift */; };
 		BF17CE1128679F1D00687415 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17CE1028679F1D00687415 /* AppViewModel.swift */; };
-		BF22240B286912EA00CA45CE /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF22240A286912EA00CA45CE /* EndView.swift */; };
 		BF56546A2868148C00ECD874 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5654692868148C00ECD874 /* QuizModel.swift */; };
 		F51D2B3D2870DE2600AECDD5 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D2B3C2870DE2600AECDD5 /* CircleButton.swift */; };
 		F525750C2872AC5F00F10F64 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F525750B2872AC5F00F10F64 /* OnBoardingView.swift */; };
@@ -26,7 +25,10 @@
 		F5606F07287542E400ACDD13 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F5606F06287542E400ACDD13 /* FirebaseAnalytics */; };
 		F5606F09287542E400ACDD13 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F5606F08287542E400ACDD13 /* FirebaseDatabase */; };
 		F5606F0B287542E400ACDD13 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F5606F0A287542E400ACDD13 /* FirebaseFirestore */; };
+		F56A118428831BCE0006FBD7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56A118328831BCE0006FBD7 /* LocationManager.swift */; };
 		F5A24A892875232400CCF46E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5A24A882875232400CCF46E /* GoogleService-Info.plist */; };
+		F5DF327F287B5F40007E4289 /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DF327E287B5F40007E4289 /* EndView.swift */; };
+		F5DF3281287B5F71007E4289 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DF3280287B5F71007E4289 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,14 +61,16 @@
 		BF07AD662866993200B1F2A4 /* HumilityAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumilityAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF17CE0D28679B2900687415 /* ReusableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableText.swift; sourceTree = "<group>"; };
 		BF17CE1028679F1D00687415 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
-		BF22240A286912EA00CA45CE /* EndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
 		BF5654692868148C00ECD874 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
 		F51D2B3C2870DE2600AECDD5 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		F525750B2872AC5F00F10F64 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		F525750D2872AF8F00F10F64 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		F525750F2872B03500F10F64 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		F5606EFE28753FD200ACDD13 /* EndViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndViewModel.swift; sourceTree = "<group>"; };
+		F56A118328831BCE0006FBD7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		F5A24A882875232400CCF46E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F5DF327E287B5F40007E4289 /* EndView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
+		F5DF3280287B5F71007E4289 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,10 +131,7 @@
 				BF07AD4B2866992F00B1F2A4 /* ContentView.swift */,
 				BF07AD4D2866993200B1F2A4 /* Assets.xcassets */,
 				BF07AD4F2866993200B1F2A4 /* Preview Content */,
-				BF22240A286912EA00CA45CE /* EndView.swift */,
-				F525750B2872AC5F00F10F64 /* OnBoardingView.swift */,
-				F525750D2872AF8F00F10F64 /* FirstView.swift */,
-				F525750F2872B03500F10F64 /* SecondView.swift */,
+				F5DF327D287B5ED4007E4289 /* Views */,
 			);
 			path = HumilityApp;
 			sourceTree = "<group>";
@@ -183,8 +184,21 @@
 			isa = PBXGroup;
 			children = (
 				BF5654692868148C00ECD874 /* QuizModel.swift */,
+				F56A118328831BCE0006FBD7 /* LocationManager.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F5DF327D287B5ED4007E4289 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F525750F2872B03500F10F64 /* SecondView.swift */,
+				F525750D2872AF8F00F10F64 /* FirstView.swift */,
+				F5DF327E287B5F40007E4289 /* EndView.swift */,
+				F525750B2872AC5F00F10F64 /* OnBoardingView.swift */,
+				F5DF3280287B5F71007E4289 /* MapView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,17 +340,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5DF327F287B5F40007E4289 /* EndView.swift in Sources */,
 				F51D2B3D2870DE2600AECDD5 /* CircleButton.swift in Sources */,
-				BF22240B286912EA00CA45CE /* EndView.swift in Sources */,
 				BF17CE0E28679B2900687415 /* ReusableText.swift in Sources */,
 				BF07AD4C2866992F00B1F2A4 /* ContentView.swift in Sources */,
 				BF17CE1128679F1D00687415 /* AppViewModel.swift in Sources */,
 				F525750C2872AC5F00F10F64 /* OnBoardingView.swift in Sources */,
+				F5DF3281287B5F71007E4289 /* MapView.swift in Sources */,
 				F52575102872B03500F10F64 /* SecondView.swift in Sources */,
 				BF07AD4A2866992F00B1F2A4 /* HumilityAppApp.swift in Sources */,
 				F525750E2872AF8F00F10F64 /* FirstView.swift in Sources */,
 				BF56546A2868148C00ECD874 /* QuizModel.swift in Sources */,
 				F5606EFF28753FD300ACDD13 /* EndViewModel.swift in Sources */,
+				F56A118428831BCE0006FBD7 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +514,7 @@
 				DEVELOPMENT_TEAM = LZ98HGYP26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -528,6 +545,7 @@
 				DEVELOPMENT_TEAM = LZ98HGYP26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
